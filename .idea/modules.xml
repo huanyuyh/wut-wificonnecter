@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WHUT-Wificonnector.iml" filepath="$PROJECT_DIR$/.idea/modules/WHUT-Wificonnector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/WHUT-Wificonnector.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/WHUT-Wificonnector.app.iml" />
+    </modules>
+  </component>
+</project>
