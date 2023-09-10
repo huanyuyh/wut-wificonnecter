@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context="com.huanyu.whut_wificonnector.MainActivity"
     android:padding="20dp">
 
    <EditText
@@ -33,21 +33,47 @@
        android:layout_below="@id/ed_user">
 
    </EditText>
+   <EditText
+       android:id="@+id/ed_code"
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:textSize="16sp"
+       android:textColor="#FFAD33"
+       android:inputType="textPassword"
+       android:hint="验证码"
+       android:padding="10dp"
+       android:drawablePadding="5dp"
+       android:maxLines="1"
+       android:layout_below="@id/ed_pass">
+
+   </EditText>
    <CheckBox
       android:id="@+id/cbox_memory"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        android:padding="10dp"
-       android:layout_below="@+id/ed_pass"
+       android:layout_below="@+id/ed_code"
        android:text="记住密码">
 
    </CheckBox>
+   <ImageView
+       android:id="@+id/img_code"
+       android:layout_width="240dp"
+       android:layout_height="80dp"
+       android:background="#efefef"
+       android:layout_below="@+id/ed_code"
+       android:padding="10dp"
+       android:layout_toRightOf="@id/cbox_memory"
+       android:scaleType="fitCenter"
+       >
+
+   </ImageView>
 
    <Button
        android:id="@+id/bt_login"
        android:layout_width="80dp"
        android:layout_height="40dp"
-       android:layout_below="@id/cbox_memory"
+       android:layout_below="@id/img_code"
        android:layout_marginTop="20dp"
        android:text="登录"
        android:textSize="20sp"
